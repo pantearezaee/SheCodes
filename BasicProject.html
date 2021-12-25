@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sour</title>
+    <style>
+        body{
+            background-image: url(https://s3.amazonaws.com/shecodesio-production/uploads/files/000/023/471/original/Sour_wallpaper.jpeg?1640347450);
+            font-family: Arial, sans-serif;
+        }
+        h1{
+            color: aliceblue;
+            text-align: center;
+            border-radius: 5px;
+            padding: 15px;
+            background-color: #736DA2;
+            margin: 20px auto;
+            width: 400px;
+            box-shadow: 5px 8px 10px 1px #24213b;
+        }
+        p{
+            text-align: center;
+            padding: 15px;
+            color: antiquewhite;
+            background-color: #736DA2;
+            margin: 20px auto;
+            width: 400px;
+            border-radius: 5px;
+            box-shadow: 5px 8px 10px 1px #24213b;
+        }
+        img{
+            display: block;
+            box-shadow: 5px 8px 10px 1px #24213b;
+            border-radius: 5px;
+            margin: 20px auto;
+        }
+        div.text{
+            width: 400px;
+            text-align: center;
+            border-radius: 5px;
+            margin: 0 auto;
+            padding: 20px;
+            color: aliceblue;
+            background-color: #736DA2;
+            box-shadow: 5px 8px 10px 1px #24213b;
+        }
+        button{
+            display: block;
+            border: none;
+            margin: 20px auto;
+            background-color: aliceblue;
+            color: blueviolet;
+            padding: 10px 15px;
+            border-radius: 25px;
+            box-shadow: 5px 8px 10px 1px #24213b;
+            transition: 200ms ease-in-out;
+        }
+        a{
+            text-decoration: none;
+            color: black;
+            transition: 200ms ease-in-out;
+        }
+        a:hover{
+            text-decoration: underline;
+            color: #24213b;
+        }
+        .coder{
+            font-family: monospace;
+            text-align: center;
+            color: aliceblue;
+        }
+        button:hover{
+            background-color: #736DA2;
+            color: azure;
+            cursor: grab;
+        }
+    </style>
+</head>
+<body>
+    <h1>Olivia Rodrigo</h1>
+    <p>Listening to her music is my favourite thing to do!</p>
+    <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/023/470/original/bb10843a11fd478c0e16d4dc74e971f4.jpeg?1640347126" alt="" width="300px">
+    <div class="text">She signed with Interscope and Geffen Records in 2020 and released her debut single,
+         "Drivers License", in 2021, which quickly topped various charts worldwide giving Rodrigo her breakthrough.
+         It was followed by successful singles "Deja Vu" and "Good 4 U", leading up to the release of her critically
+         acclaimed debut studio album, Sour, which topped charts across the globe. Rodrigo has earned seven Grammy
+         nominations, including Best New Artist, Album of the Year for Sour, and Record of the Year and Song of the Year
+         for "Drivers License".
+         She was named Time's Entertainer of the Year (2021)
+         <span><a href="https://open.spotify.com/artist/1McMsnEElThX1knmY4oliG">Go to Spotify</a></span></div>
+         <button>Contact Us!</button>
+         <div class="coder">Coded by Pantea</div>
+         <script>
+             function buttoncaller(){
+              let name = prompt("What's your name?");
+              let email = prompt("What's your email?");
+              let song = prompt( name + " 💁🏻‍♀️ What's your fav song of Olivia?");
+              alert(song + "! Good for you🔮! we will be in touch :)");
+
+             }
+             let button = document.querySelector("button");
+             button.addEventListener("click",buttoncaller);
+         </script>
+</body>
+</html>
